@@ -1,0 +1,88 @@
+.status-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.status-section .status-card {
+    text-align: start;
+    padding: 10px 18px;
+    border-radius: 8px;
+    background-color: #deecff;
+    width: fit-content;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.status-section .status-card h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color:#0060df;
+}
+
+.status-section .status-card p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.personal-info-section {
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 8px;
+    border: solid 1px #eee;
+    padding: 8px;
+    background-color: #fff;
+}
+.info-grid {
+    display: flex;
+    font-size: 12px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+.info-item {
+    display: flex;
+    max-width: fit-content;
+    align-items: center;
+    width: 45%;
+    padding: 10px 5px;
+}
+.col {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.col-v {
+    padding: 0px 5px
+}
+
+.tabs-navigation {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color:#e9ecef;
+}
+
+.tab-button {
+    background-color: #e9ecef;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: background-color 0.01s ease;
+}
+
+.tab-button.active {
+    width: 100px; 
+    height: 44px; 
+    margin: 0 34px; 
+    padding: 0; 
+    border-radius: 8px; 
+    background-color: #0060df; 
+    color: rgb(246, 241, 241);               
+}

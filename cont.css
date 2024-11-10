@@ -1,0 +1,99 @@
+.inspection-details-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: solid 5px #fcfcfc;
+    padding: 14px;
+    box-shadow: 4px rgba(44, 36, 36, 0.1);
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 16px 20px; 
+    border-radius: 8px;
+    border: solid 0.5px #e0e0e0;
+    height: auto; 
+}
+
+
+.grid-item h5 {
+    margin-bottom: 10px; 
+}
+
+.grid-item p {
+    margin: 8px 0; 
+}
+
+@media (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: 1fr; 
+    }
+}
+
+
+.inspection-detail-grid-item{
+    margin-bottom: 5px;           
+    border: 1px solid #ccc;        
+    padding: 10px;                 
+    border-radius: 5px;            
+    background-color: #f9f9f9;
+}
+.worn{
+    display: flex;
+    justify-content: space-between;
+    color: #aaa;
+    margin-top: 10px;              
+    margin-bottom: 8px; 
+}
+.text-style-1 {
+    font-size: 16px;
+}
+.detail-header {
+    display: flex;                  
+    align-items: center;            
+    margin-bottom: 12px;                 
+}
+
+.detail-icon {
+    width: 20px;                  
+    height: 20px;                  
+    margin-right: 10px; 
+}
+
+h4 {
+    font-size: 16px;              
+    color: #333;                  
+    margin: 0;                     
+}
+h5 {
+    color: blue; 
+}
+.inspection-heading {
+    display: inline-block; 
+    position: relative; 
+}
+
+.inspection-heading::after {
+    content: '';
+    display: block;
+    width: 50%; 
+    height: 2px; 
+    background-color: blue; 
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+}
+
+
+
+
+
+
+
